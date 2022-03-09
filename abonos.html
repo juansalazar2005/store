@@ -11,12 +11,91 @@
     <link rel="stylesheet" href="css.css">
 </head>
 
-<body>
+<body class="bg-dark">
     <header>
-
+        <nav class="navbar navbar-expand-lg navbar-dark fondoabono">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="empanadas.html">El Machetico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rappi.html">Rappi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="abonos.html">Abonos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="epm.html">EPM</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5 border p-5 my-5 bg-light">
+                    <h1 class="text-center mt-5">Atletico Nacional</h1>
+                    <img src="img/Escudo.png" alt="img1" class="d-block mx-auto imgatl mt-4 ">
+                    <select class="form-select mt-5" aria-label="Default select example">
+                        <option selected>Tribuna</option>
+                        <option value="1">Sur</option>
+                        <option value="2">Norte</option>
+                        <option value="3">Occidente</option>
+                        <option value="4">Oriental</option>
+                    </select>
+                    <form action="">
 
+                        <div class="mb-3 mt-4">
+                            <label class="form-label">Cantidad de abonos</label>
+                            <input type="text" class="form-control" id="number" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3 mt-4">
+                            <label class="form-label">Cc</label>
+                            <input type="number" class="form-control" id="number" aria-describedby="emailHelp">
+                        </div>   
+
+                        <div class="mb-3 mt-4">
+                            <label class="form-label">Names</label>
+                            <input type="email" class="form-control" id="text" aria-describedby="emailHelp">
+                        </div>  
+
+                        <div class="mb-3 mt-4">
+                            <label class="form-label">Last names</label>
+                            <input type="email" class="form-control" id="text" aria-describedby="emailHelp">
+                        </div>
+
+
+                        <div class="mb-3 mt-4">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" id="text" aria-describedby="emailHelp">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 mb-5 mt-3">Submit</button>
+                                   
+                    </form>
+                    
+                </div>
+            </div>
+
+        </div>
     </main>
     <footer>
 
