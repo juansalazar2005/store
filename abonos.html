@@ -53,43 +53,43 @@
             <div class="row justify-content-center">
                 <div class="col-5 border p-5 my-5 bg-light shadow">
                     <h1 class="text-center mt-5">Atletico Nacional</h1>
-                    <img src="img/Escudo.png" alt="img1" class="d-block mx-auto imgatl mt-5 ">
+                    <img src="img/Escudo.png" alt="img1" class="img-fluid imgatl mt-5 ms-5">
                     <select class="form-select mt-5" aria-label="Default select example">
-                        <option selected>Tribuna</option>
-                        <option value="1">Sur</option>
-                        <option value="2">Norte</option>
-                        <option value="3">Occidente</option>
-                        <option value="4">Oriental</option>
+                        <option id="tribuna" selected>Tribuna</option>
+                        <option value="Sur">Sur</option>
+                        <option value="Norte">Norte</option>
+                        <option value="Occidente">Occidente</option>
+                        <option value="Oriental">Oriental</option>
                     </select>
                     <form action="">
 
                         <div class="mb-3 mt-4">
                             <label class="form-label">Payment quantity</label>
-                            <input type="number" class="form-control" id="number" aria-describedby="emailHelp">
+                            <input type="number" class="form-control" id="payment" aria-describedby="emailHelp">
                         </div>
 
                         <div class="mb-3 mt-4">
                             <label class="form-label">ID</label>
-                            <input type="number" class="form-control" id="number" aria-describedby="emailHelp">
+                            <input type="number" class="form-control" id="id" aria-describedby="emailHelp">
                         </div>   
 
                         <div class="mb-3 mt-4">
                             <label class="form-label">Name</label>
-                            <input type="email" class="form-control" id="text" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
                         </div>  
 
                         <div class="mb-3 mt-4">
                             <label class="form-label">Last name</label>
-                            <input type="email" class="form-control" id="text" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="lastName" aria-describedby="emailHelp">
                         </div>
 
 
                         <div class="mb-3 mt-4">
                             <label class="form-label">Email</label>
-                            <input type="email" class="form-control" id="text" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                         </div>
 
-                        <button type="submit" class="btn btn-primary w-100 mb-5 mt-3">Submit</button>
+                        <button type="submit" id="boton" class="btn btn-primary w-100 mb-5 mt-3">Submit</button>
                                    
                     </form>
                     
@@ -105,7 +105,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src=""></script>
+    <script src="dos.js"></script>
 </body>
 
 </html>
