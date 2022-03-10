@@ -58,18 +58,18 @@
                 <div class="row justify-content-center">
                     <div class="col-5 d-block ms-4">
                         <form action="">
-                            <select class="form-select mt-5" aria-label="Default select example">
+                            <select class="form-select mt-5" aria-label="Default select example" id="product">
                                 <option selected>Seleccionar producto</option>
-                                <option value="1">Empanada</option>
-                                <option value="2">Hamburguesa</option>
-                                <option value="3">Pizza</option>
-                                <option value="4">Hot dog</option>
-                                <option value="5">Salpicón</option>
-                                <option value="6">Ensalada</option>
-                                <option value="7">Helado</option>
-                                <option value="8">Gaseosa</option>
-                                <option value="9">Postre</option>
-                                <option value="10">Torta</option>
+                                <option value="empanada">Empanada</option>
+                                <option value="hamburgues">Hamburguesa</option>
+                                <option value="pizza">Pizza</option>
+                                <option value="hot dog">Hot dog</option>
+                                <option value="salpicón">Salpicón</option>
+                                <option value="ensalada">Ensalada</option>
+                                <option value="helado">Helado</option>
+                                <option value="gaseosa">Gaseosa</option>
+                                <option value="postre">Postre</option>
+                                <option value="torta">Torta</option>
                             </select>
                             <div class="mb-3 mt-3">
                                 <label class="form-label">Address</label>
@@ -79,7 +79,7 @@
                                 <label class="form-label">Email</label>
                                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                             </div>
-                            <button type="submit" class="btn btn-primary w-100 mb-5 mt-3">Submit</button>
+                            <button type="button" class="btn btn-primary w-100 mb-5 mt-3" onclick="getData()">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src="java.js"></script>
+    <script src="rappidata.js"></script>
 </body>
 
 </html>
