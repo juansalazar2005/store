@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="img/Bad-Bunny-Logo.png" alt="img10" class="logo-epm"></a>
+                <a class="navbar-brand" href="#"><img src="img/Bad-Bunny-Logo.png" alt="img10" class="logo-epm cursorDefault"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="empanadas.html">El Machetico</a>
@@ -40,7 +40,7 @@
                             <a class="nav-link" href="epm.html">EPM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="badbunny.html">Concierto Bad Bunny</a>
+                            <a class="nav-link active" href="badbunny.html">Concierto Bad Bunny</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -52,15 +52,11 @@
         </nav>
     </header>
     <main>
-        <div class="container justify-content-center">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-light text-center mt-3">Bad Bunny</h1>
-                    <img src="img/bunny.png" alt="img2" class="d-block mx-auto logoconcierto mt-3">
-                </div>
-            </div>
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-5 d-block ms-4">
+                <div class="col-8 border p-5 my-5 shadow">
+                    <h1 class="fuenteBad">Bad Bunny</h1>
+                    <img src="img/bunny.png" alt="img2" class="d-block mx-auto logoconcierto w-100 my-4">
                     <form>
                         <select class="form-select mt-5" aria-label="Default select example" id="product">
                             <option selected>Seleccionar Ciudad</option>
@@ -68,7 +64,13 @@
                             <option value="bogota">Bogotá</option>
                             <option value="cali">Cali</option>
                         </select>               
+                        <button type="button" id="boton" class="btn btn-primary w-100 mb-3 mt-5">Submit</button>
                     </form>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-5 d-block ms-4">
+                    
                 </div>    
             </div>
         </div>                
