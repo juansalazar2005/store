@@ -17,20 +17,28 @@ function escuchar(event) {
     let ranchera = 3500
 
     if (empanada == "carne") {
+        console.log("estoy en 1")
         let ressult = quantity * carne
         alert("Su total es de: " + ressult)
     }
     else if (empanada == "paisa") {
+        console.log("estoy en 2")
         let ressult = quantity * paisa
         alert("Su total es de: " + ressult)
     }
     else if (empanada == "ranchera") {
+        console.log("estoy en 3")
         let ressult = quantity * ranchera
         alert("Su total es de: " + ressult)
+    }
+    else if (empanada == "Seleccionar empanada") {
+        console.log("estoy en 4")
+        alert("Seleccione artículos para comprar!")
     }
     else if (empanada == "pollo" || "papa") {
         let ressult = quantity * pollo
         alert("Su total es de: " + ressult)
     }
+
 }
 
